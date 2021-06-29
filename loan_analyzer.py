@@ -146,8 +146,7 @@ In this section, you will use a loop to iterate through a series of loans and se
 3. Print the list of inexpensive_loans. 
 
 
-Bla Bla
-"""
+ """
 
 loans = [
     {
