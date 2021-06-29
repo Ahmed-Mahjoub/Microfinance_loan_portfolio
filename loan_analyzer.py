@@ -143,7 +143,10 @@ In this section, you will use a loop to iterate through a series of loans and se
 2. Use a for loop to select each loan from a list of loans.
     a. Inside the for loop, write an if-statement to determine if the loan_price is less than 500
     b. If the loan_price is less than 500 then append that loan to the `inexpensive_loans` list.
-3. Print the list of inexpensive_loans.
+3. Print the list of inexpensive_loans. 
+
+
+Bla Bla
 """
 
 loans = [
