@@ -120,12 +120,13 @@ new_loan = {
 #    This function should include parameters for `future_value`, `remaining_months`, and the `annual_discount_rate`
 #    The function should return the `present_value` for the loan.
 # YOUR CODE HERE!
+annual_discount_rate = 0.2/12  
+new_remaining_months = 12
+
 def calculate_present_value(future_value,remaining_months, annual_discount_rate):
     present_value_function = future_value / (1 + annual_discount_rate)**remaining_months
     return(present_value_function)
 
-annual_discount_rate = 0.2/12  
-new_remaining_months = 12
 
 
 # @TODO: Use the function to calculate the present value of the new loan given below.
