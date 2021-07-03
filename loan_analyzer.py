@@ -187,7 +187,12 @@ for loan in loans:
         inexpensive_loans.append(loan)
 # @TODO: Print the `inexpensive_loans` list
 # YOUR CODE HERE!
-print("The inexpensive loan list :" , inexpensive_loans)
+# Using the loop and rang to organize the output in lines.
+for loan in range(0, len(inexpensive_loans)):
+    for key, value in inexpensive_loans[loan].items():
+        print(f"[{loan}] {key} : {value} ")
+    print("\n")    
+
 
 """Part 5: Save the results.
 
