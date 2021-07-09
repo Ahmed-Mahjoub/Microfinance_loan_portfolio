@@ -218,7 +218,9 @@ output_path = Path("inexpensive_loans.csv")
 # and each row of `loan.values()` from the `inexpensive_loans` list.
 # YOUR CODE HERE!
 with open(output_path, "w") as csvfile:
-    csvwriter = csv.writer(csvfile, delimiter = "|")
+    csvwriter = csv.writer(csvfile, delimiter = ",")
     csvwriter.writerow(header)
     for item in inexpensive_loans:
         csvwriter.writerow(item.values())
+
+        # last update
